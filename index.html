@@ -4,9 +4,11 @@ title: Home
 ---
 
 <div id="home">
-  {% if site.posts == empty %}
-    <p>More soon...</p>
-  {% else %}
+  <p><strong>Work</strong>: I am a <a href="https://github.com/about">GitHubber</a>. I helped create <a href="http://harmonyapp.com">Harmony</a>, <a href="http://gaug.es">Gauges</a>, and <a href="http://speakerdeck.com">Speaker Deck</a>. I have also released a lot of <a href="https://github.com/jnunemaker">open source</a>.</p>
+  <p><strong>Home</strong>: I live in Indiana with my wonderful wife and our two cats. I cheer for Notre Dame football and IU basketball.</p>
+  <p><strong>Play</strong>: I love riding my <a href="http://www.flickr.com/photos/johnnunemaker/4887586177/in/photostream">motorcycle</a> and playing games on PS3 (Uncharted, <span class="caps">NCAA</span> Football, and Madden). I am a recovering Minecraft addict. I watch more TV than you do.</p>
+
+  {% if site.posts != empty %}
     <h1>Blog Posts</h1>
     <ul class="posts">
       {% for post in site.posts %}
@@ -14,4 +16,19 @@ title: Home
       {% endfor %}
     </ul>
   {% endif %}
+
+  <h1>Other Sites</h1>
+  <ul class="posts">
+    <li><a href="http://railstips.org">RailsTips</a>: Ruby and Rails things.</li>
+    <li><a href="http://mongotips.org">MongoTips</a>: MongoDB things.</li>
+  </ul>
+
+  <h1>Open Source Projects</h1>
+  <ul class="posts">
+    <li><a href="https://github.com/jnunemaker/nunes">Nunes</a>: The friendly gem that instruments everything for you, like I would if I could.</li>
+    <li><a href="https://github.com/jnunemaker/flipper">Flipper</a>: Feature flipper for ANYTHING.</li>
+    <li><a href="https://github.com/jnunemaker/httparty">HTTParty</a>: Makes HTTP fun again!</li>
+    <li><a href="https://github.com/mongomapper/mongomapper">MongoMapper</a>: A Ruby Object Mapper for Mongo</li>
+    <li><a href="https://github.com/sferik/twitter">Twitter</a>: A Ruby interface to the Twitter API</li>
+  </ul>
 </div>
