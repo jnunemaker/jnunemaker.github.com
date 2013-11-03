@@ -1,4 +1,3 @@
-jnunemaker.github.com
-=====================
+# johnnunemaker.com
 
-my new blog
+my blawg...
