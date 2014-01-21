@@ -14,7 +14,7 @@ def ask(message)
   STDIN.gets.chomp
 end
 
-title = ask("# ")
+title = ask("title # ")
 file_name = title.gsub(/[^\w]/, '-').squeeze('-')
 article = YAML.dump({"title" => title, "layout" => "post"})
 article << "---\n\n"
