@@ -3,34 +3,11 @@ layout: default
 title: Home
 ---
 
-<div id="home">
-  <ul class="posts">
-    <li><strong>Home</strong>: I live in Indiana with my wonderful wife and our two cats. ND football. IU basketball.</li>
-    <li><strong>Work</strong>: Analytics at <a href="https://github.com/about">GitHub</a>. Helped create <a href="http://harmonyapp.com">Harmony</a>, <a href="http://gaug.es">Gauges</a>, and <a href="http://speakerdeck.com">Speaker Deck</a>.</li>
-    <li><strong>Play</strong>: <a href="http://www.flickr.com/photos/johnnunemaker/4887586177/in/photostream">Motorcycle</a>. PS3 (Uncharted, <span class="caps">NCAA</span> Football, and Madden). I watch more TV than you do.</li>
-  </ul>
-
-  {% if site.posts != empty %}
-    <h1>Blog Posts</h1>
-    <ul class="posts">
-      {% for post in site.posts %}
-        <li><span>{{ post.date | date: "%B %d, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-
-  <h1>Other Sites</h1>
-  <ul class="posts">
-    <li><a href="http://railstips.org">RailsTips</a>: Ruby and Rails things.</li>
-    <li><a href="http://mongotips.com">MongoTips</a>: MongoDB things.</li>
-  </ul>
-
-  <h1>Open Source Projects</h1>
-  <ul class="posts">
-    <li><a href="https://github.com/jnunemaker/nunes">Nunes</a>: The friendly gem that instruments everything for you, like I would if I could.</li>
-    <li><a href="https://github.com/jnunemaker/flipper">Flipper</a>: Feature flipper for ANYTHING.</li>
-    <li><a href="https://github.com/jnunemaker/httparty">HTTParty</a>: Makes HTTP fun again!</li>
-    <li><a href="https://github.com/mongomapper/mongomapper">MongoMapper</a>: A Ruby Object Mapper for Mongo</li>
-    <li><a href="https://github.com/sferik/twitter">Twitter</a>: A Ruby interface to the Twitter API</li>
-  </ul>
+<div class="posts">
+  {% for post in site.posts %}
+  <div class="post">
+    <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+  </div>
+  {% endfor %}
 </div>
