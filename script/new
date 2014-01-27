@@ -15,7 +15,7 @@ def ask(message)
 end
 
 title = ask("title # ")
-file_name = title.gsub(/[^\w]/, '-').squeeze('-')
+file_name = title.gsub(/[^\w]/, '-').squeeze('-').downcase
 article = YAML.dump({"title" => title, "layout" => "post"})
 article << "---\n\n"
 path = "_posts/#{Time.now.strftime("%Y-%m-%d")}#{'-' + file_name}.md"
