@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<p><img src="/images/me.jpg" alt="John Nunemaker" /></p>
+<p><img src="/images/me.jpg" alt="John Nunemaker" width="210" style="float:right" /></p>
 
 <p>
   <strong>Home</strong>: Indiana. Married with 2 cats. ND football. IU basketball.<br/>
