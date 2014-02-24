@@ -1,5 +1,5 @@
 ---
-title: Of Late
+title: Analytics at GitHub
 layout: post
 ---
 
@@ -80,7 +80,7 @@ By November, we were all feeling the withdrawals of shipping features to the gen
 
 The first week back to work in January (post-Christmas break), [traffic graphs launched](https://github.com/blog/1672-introducing-github-traffic-analytics) and they have chugged along with **no production impact on GitHub.com and, equally important, people seem to really dig them**, which is fantastic.
 
-![GitHub.com Traffic Graphs]({{ site.url }}/images/posts/of-late-traffic-graphs.png)
+![GitHub.com Traffic Graphs]({{ site.url }}/images/posts/analytics-at-github-traffic-graphs.png)
 
 Traffic graphs are the first public or private feature built on our data pipeline. Events go into the collector, get queued in Kestrel, processed to disk by gulch, pushed to S3 by cron, pulled from S3 and crunched by Hadoop which dumps report output into Cassandra, and finally served to github.com through a Rails API which reads from Cassandra.
 
