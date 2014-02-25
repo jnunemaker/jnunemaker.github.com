@@ -13,11 +13,11 @@ title: About
 
 <h2>Links</h2>
 <ul>
-  <li><a href="https://twitter.com/jnunemaker">Twitter</a>: Words.</li>
-  <li><a href="https://github.com/jnunemaker">GitHub</a>: Code.</li>
-  <li><a href="https://speakerdeck.com/jnunemaker">SpeakerDeck</a>: Talks.</li>
-  <li><a href="http://railstips.org">RailsTips</a>: Ruby and Rails things.</li>
-  <li><a href="http://mongotips.com">MongoTips</a>: MongoDB things.</li>
+  <li><a href="https://twitter.com/jnunemaker">Twitter</a></li>
+  <li><a href="https://github.com/jnunemaker">GitHub</a></li>
+  <li><a href="https://speakerdeck.com/jnunemaker">SpeakerDeck</a></li>
+  <li><a href="http://railstips.org">RailsTips</a></li>
+  <li><a href="http://mongotips.com">MongoTips</a></li>
 </ul>
 
 <h2>Current (and former) Open Source Projects</h2>
