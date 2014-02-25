@@ -6,7 +6,7 @@ title: About
 <p><img src="/images/me.jpg" alt="John Nunemaker" width="210" style="float:right" /></p>
 
 <p>
-  <strong>Home</strong>: Indiana. Married with 2 cats. ND football. IU basketball.<br/>
+  <strong>Home</strong>: Hoosier. ND football. IU basketball.<br/>
   <strong>Work</strong>: Analytics at <a href="https://github.com/about">GitHub</a>. Steward of <a href="http://speakerdeck.com">Speaker Deck</a>.<br/>
   <strong>Play</strong>: I watch more TV than you do.
 </p>
