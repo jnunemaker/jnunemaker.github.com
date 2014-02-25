@@ -11,8 +11,11 @@ title: About
   <strong>Play</strong>: I watch more TV than you do.
 </p>
 
-<h2>Other Sites</h2>
+<h2>Links</h2>
 <ul>
+  <li><a href="https://twitter.com/jnunemaker">Twitter</a> Words.</li>
+  <li><a href="https://github.com/jnunemaker">GitHub</a> Code.</li>
+  <li><a href="https://speakerdeck.com/jnunemaker">SpeakerDeck</a>: Talks.</li>
   <li><a href="http://railstips.org">RailsTips</a>: Ruby and Rails things.</li>
   <li><a href="http://mongotips.com">MongoTips</a>: MongoDB things.</li>
 </ul>
