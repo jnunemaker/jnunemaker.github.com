@@ -59,3 +59,16 @@ Exercise makes you happier too, which helps when you are dealing with pain.
 ## Closing Thoughts
 
 I am sure there were other things I researched, but these were the specific things that stuck out. **The tl;dr is**: exercise, form good habits, take breaks, and relax.
+
+
+## Updates
+
+### 2014-07-07
+
+I am now using the [Microsoft Sculpt Ergonomic desktop](http://www.microsoft.com/hardware/en-us/p/sculpt-ergonomic-desktop). The negative tilt on the keyboard is great. I also dig the chiclet style keys. The mouse is a great angle for my wrist as well.
+
+In addition to the sculpt, I started using [MacBreakZ](http://www.publicspace.net/MacBreakZ/) a few weeks ago. I am pretty sure it has made a bigger difference than any other single thing I have tried. I used other break apps, but they never really helped much. I think the reason is that they just said stop, whereas MacBreakZ gives me stretches to do during the time off. It makes the breaks go quick and I have noticed an improvement in range of motion.
+
+I use it with microbreaks turned on and I have it set to 30 minutes on with 5 minute breaks. At first the microbreaks were brutal, but after a few days I began to enjoy them. Be sure to Toggle the Activity Window on. As you type and click more, it moves a meter towards yellow and finally red to warn you.
+
+While the sculpt helped, I still had some pain on the outside of my hands. Since I've been using MacBreakZ, I have had little to no pain, as long as I obey the breaks and do the stretches. **I highly recommend giving MacBreakZ a real go**.
