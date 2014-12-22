@@ -7,8 +7,10 @@ Last night at [Local Variables](http://www.meetup.com/localvariables/events/2191
 
 ![Local Variables Attendees]({{ site.url }}/images/posts/atom/localvars.jpeg)
 
-I've embedded the talk below for anyone interested in flipping through the slides. If/when I get a video link, I'll include that as well.
+I've embedded the talk below for anyone interested in flipping through the slides or watching the video.
 
 <p><script async class="speakerdeck-embed" data-id="31f86a9069ae0132dede22511952b5a3" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></p>
+
+<p><iframe width="718" height="404" src="//www.youtube.com/embed/hj0R15-5fy8" frameborder="0" allowfullscreen></iframe></p>
 
 Additionally, if you have not checked out Atom yet, what are you waiting for? I use atom full time, and although I occasionally have issues with it, it is still my favorite editor to date. Give it a go!
