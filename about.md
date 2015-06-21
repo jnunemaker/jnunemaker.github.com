@@ -7,7 +7,7 @@ title: About
 
 <p>
   <strong>Home</strong>: Hoosier. ND football. IU basketball.<br/>
-  <strong>Work</strong>: Analytics at <a href="https://github.com/about">GitHub</a>. Steward of <a href="http://speakerdeck.com">Speaker Deck</a>.<br/>
+  <strong>Work</strong>: Programmer at <a href="https://github.com/about">GitHub</a>. Steward of <a href="http://speakerdeck.com">Speaker Deck</a>.<br/>
   <strong>Play</strong>: I watch more TV than you do.
 </p>
 
@@ -17,7 +17,6 @@ title: About
   <li><a href="https://github.com/jnunemaker">GitHub</a></li>
   <li><a href="https://speakerdeck.com/jnunemaker">SpeakerDeck</a></li>
   <li><a href="http://railstips.org">RailsTips</a></li>
-  <li><a href="http://mongotips.com">MongoTips</a></li>
 </ul>
 
 <h2>Current (and former) Open Source Projects</h2>
