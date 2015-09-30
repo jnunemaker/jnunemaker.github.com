@@ -23,4 +23,11 @@ layout: default
       {% endif %}
     </small>
   </p>
+
+  <h3>Recently</h3>
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
