@@ -3,7 +3,7 @@ title: Database Performance Simplified
 layout: post
 ---
 
-I have been fortunate enough to work on a few high throughput applications (thousands of requests per second) in my life where a database was the bottleneck. I am far from an expert on any database, but I have a pretty good mental model for how to use databases in a way that gets the job done, assuming realistic expectations of hardware/networking.
+I have been fortunate enough to work on a few high throughput applications (Words with Friends, GitHub.com, Gaug.es, etc.; hundreds to thousands of requests per second) in my life where a database was the bottleneck. I am far from an expert on any database, but I have a pretty good mental model for how to use databases in a way that gets the job done, assuming realistic expectations of hardware/networking.
 
 Most of the database performance articles I have read involve hardware specs, configuration changes, or are too specific about a data set and access patterns to build an overall model to live by. I guess it is best said that they are really focused on a specific problem, which is good if you have that specific problem, but if you just want to learn in general, you have to gather together a lot of scraps.
 
