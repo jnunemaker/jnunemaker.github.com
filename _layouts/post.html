@@ -8,6 +8,26 @@ layout: default
   {{ content }}
 
   <p>If you have any specific questions or comments about this post, feel free to hit me up on twitter.</p>
-
   <p>~ <a href="https://twitter.com/jnunemaker">@jnunemaker</a></p>
+
+  <p>
+    <small>
+      {% if page.previous and page.next %}
+      <a rel="prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+      &nbsp;&bull;&nbsp;
+      <a rel="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;
+      {% elsif page.previous %}
+        <a rel="prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+      {% elsif page.next %}
+        <a rel="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+      {% endif %}
+    </small>
+  </p>
+
+  <h3>Recently</h3>
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
