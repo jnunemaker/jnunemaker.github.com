@@ -9,11 +9,11 @@ Both Gauges and SpeakerDeck were heavily used internally at GitHub, so we decide
 
 ## A Change in Directions
 
-Here is the thing. When you work at a company, you want to work on the **most important** thing you can and make the **biggest impact**. All of us (from Ordered List) quickly realized we could make a far greater impact working on GitHub specific things, rather than Gauges, so we set out in different directions.
+Here is the thing. When you work at a company, you want to work on the most important thing you can and make the biggest impact. All of us (from Ordered List) quickly realized we could make a far greater impact working on GitHub specific things, rather than Gauges, so we set out in different directions.
 
 As the primary developer of Gauges, I became its "on the side" caretaker. For quite a while, Gauges received little love. I kept the ship running, but did not have time to add anything new. Thankfully, [we found Gauges a home](http://fastestforward.com/blog/archives/2013/11/01/fastest-forward-and-gauges-are-bff) in December 2013.
 
-So why did I just tell you all of that? Gauges had decent throughput (in the hundreds of requests per second realm) and usage (by customers). Despite the continual throughput and data growth (around 1TB in 2013), Gauges purred along like a kitten with little human intervention for around a year. The reason why is something I have started calling **anti-decay programming**.
+So why did I just tell you all of that? Gauges had decent throughput (in the hundreds of requests per second realm) and usage (by customers). Despite the continual throughput and data growth (around 1TB in 2013), Gauges purred along like a kitten with little human intervention for around a year. The reason why is something I have started calling anti-decay programming.
 
 ## Decay
 
@@ -37,9 +37,20 @@ Along with making fewer and faster network calls, failing fast is important. Wra
 
 ### Limits
 
+**Limit everything. I cannot emphasize this enough.** The limits can be high, but they still need to be there. Someone someday will use your application/feature in a way you did not intend or expect. If you do not impose a limit, that someone will find that limit for you and it will most likely impact all of your customers, instead of just the one hitting the limit.
+
+**Every `SELECT` should have a `LIMIT`**. Take [SpeakerDeck](https://speakerdeck.com) for example. Originally, we naively showed all of a user's presentations on their profile page. A few power users and spammers later and SpeakerDeck was hammering the database for thousands of presentations on every page load for certain users.
+
+**Every `UPDATE` and `DELETE` should have a `LIMIT`**. Unbounded updates and deletes are a great way to cause long transactions, performance issues and replication lag. At GitHub, we have some code that handles performing this type of write in a background job in large batches (say 1k or 5k rows). Each batch is wrapped by a throttler that checks for replication lag. This allows us to perform large updates and deletes in a manner that won't bring the database to a hault or cause our read secondaries to fall far behind.
+
+**Every message queue should have a limit**. Your message queue has a limit and it is either memory, disk or CPU. You can either hit that limit and crash or drop data. As bad as dropping data sounds, it is better than completely crashing. Most message queues have a way to set a limit on the number of messages to keep. Hopefully you never hit that limit, but if you do, you'll be glad that you set it.
+
+**All user actions should have a limit**. Oof. This is a big one. We have improved on this a lot over the past year or two at GitHub, but this one still bites us in interesting ways. SpeakerDeck is another good example here. The only users that create thousands of presentations are spammers. If you are concerned about limiting the content a user can create or something like that, at a minimum, you can set limits for what they can do in a given time period.
+
+You can also set different limits based on whether a user is using your web UI or API. API's need higher limits, but there is a real maximum number of actions a real user can perform in a web interface in a given time frame.
+
 * counts/sorts
 * pagination (count 1,2,3...22323232 vs prev/next)
-* select with limit, update with limit, delete with limit
 * limit requests (by ip, by resource, by concurrency, etc.)
 
 ### Operations
