@@ -22,17 +22,20 @@ body {
 
 
 .masthead {
-  margin-bottom:2rem;
-  border-bottom: 1px solid #eee;
-  text-transform: lowercase;
+  margin-bottom:1em;
+  padding-bottom: 0;
 }
 
 .masthead-title a {
   color: #333;
 }
 
-.nav {
-  text-transform: lowercase;
+.masthead-title small {
+  display:block;
+}
+
+.nav a {
+  font-size:13px;
 }
 
 .post {
