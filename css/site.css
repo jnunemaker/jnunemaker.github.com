@@ -23,13 +23,26 @@ body {
   padding-bottom: 1em;
 }
 
+.posts .post-year {
+  margin-bottom:0.5em;
+}
+
 .posts .post {
-  margin-bottom:2em;
-  padding-bottom:0;
+  margin-bottom:0;
+  padding:1em 0;
+  border-top: 1px solid #eee;
+  border-bottom: none;
 }
 
 .posts .post .post-title {
   font-size:1.5rem;
+  margin:0;
+  padding:0;
+}
+
+.posts .post .post-date {
+  margin:0;
+  padding:0;
 }
 
 .by-twitter {
