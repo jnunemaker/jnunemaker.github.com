@@ -11,7 +11,7 @@ title: About
   <strong>Play</strong>: I watch more TV than you do.
 </p>
 
-<h2>Links</h2>
+<h2>Elsewhere</h2>
 <ul>
   <li><a href="https://twitter.com/jnunemaker">Twitter</a></li>
   <li><a href="https://github.com/jnunemaker">GitHub</a></li>
