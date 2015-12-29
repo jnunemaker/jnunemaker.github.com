@@ -3,12 +3,12 @@ layout: page
 title: About
 ---
 
-<p><img src="/images/me.jpg" alt="John Nunemaker" width="210" style="float:right" /></p>
+<p><img src="/images/me.jpg" alt="John Nunemaker" style="float:right; width:250px;" /></p>
 
 <p>
   <strong>Home</strong>: Hoosier. ND football. IU basketball.<br/>
   <strong>Work</strong>: Programmer at <a href="https://github.com/about">GitHub</a>. Steward of <a href="http://speakerdeck.com">Speaker Deck</a>.<br/>
-  <strong>Play</strong>: I watch more TV than you do.
+  <strong>Play</strong>: Basketball. I watch more TV than you do.
 </p>
 
 <h2>Elsewhere</h2>
