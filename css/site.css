@@ -1,0 +1,26 @@
+html,h1,h2,h3,h4,h5,h6 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  color: #777;
+}
+
+@media (min-width: 38rem) {
+  html {
+    font-size: 18px;
+  }
+}
+
+.masthead {
+  margin-bottom:2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.posts .post {
+  margin-bottom:2em;
+}
+
+.posts .post .post-title {
+  font-size:1.5rem;
+}
