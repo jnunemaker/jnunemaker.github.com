@@ -12,9 +12,27 @@ body {
   }
 }
 
+.theme-base-0d .sidebar {
+  background-color: #6a9fb5;
+}
+.theme-base-0d a,
+.theme-base-0d .related-posts li a:hover {
+  color: #6a9fb5;
+}
+
+
 .masthead {
   margin-bottom:2rem;
   border-bottom: 1px solid #eee;
+  text-transform: lowercase;
+}
+
+.masthead-title a {
+  color: #333;
+}
+
+.nav {
+  text-transform: lowercase;
 }
 
 .post {
@@ -36,6 +54,7 @@ body {
 
 .posts .post .post-title {
   font-size:1.5rem;
+  font-weight: 700;
   margin:0;
   padding:0;
 }
@@ -55,7 +74,7 @@ body {
   overflow:auto;
 }
 
-.prev, .next {
+a.prev, a.next {
   font-size:13px;
   border:1px solid #eee;
   padding:10px 20px;
@@ -63,9 +82,9 @@ body {
   color:#777;
 }
 
-.prev:hover, .next:hover {
+a.prev:hover, a.next:hover {
   text-decoration: none;
-  color: #268bd2;
+  color: #6a9fb5;
 }
 
 .prev {
@@ -78,4 +97,5 @@ body {
 
 .footer {
   margin-bottom:3em;
+  text-transform: lowercase;
 }
