@@ -1,6 +1,7 @@
 ---
 title: Database Performance Simplified
 layout: post
+tags: popular
 ---
 
 I have been fortunate enough to work on a few high throughput applications (Words with Friends, GitHub.com, Gaug.es, etc.; hundreds to thousands of requests per second) in my life where a database was the bottleneck. I am far from an expert on any database, but I have a pretty good mental model for how to use databases in a way that gets the job done, assuming realistic expectations of hardware/networking.
