@@ -1,7 +1,7 @@
 ---
 title: Analytics at GitHub
 layout: post
-tags: popular
+tags: recommended
 ---
 
 In the interest of getting back into writing, I want to break the seal with a simple "what have I been up to and thinking about lately" style post. Hopefully future topics will be more focused and frequent.

@@ -1,7 +1,7 @@
 ---
 title: All Requests Are Not Equal
 layout: post
-tags: popular
+tags: recommended
 ---
 
 The norm for rate limiting these days seems to be based on the number of requests a consumer can make in a given time window. The problem with this is that all requests are not equal. **Some requests are more expensive than other requests and should be treated as such.**
