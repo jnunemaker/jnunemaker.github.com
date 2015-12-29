@@ -17,10 +17,52 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+.post {
+  margin-bottom: 1em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1em;
+}
+
 .posts .post {
   margin-bottom:2em;
+  padding-bottom:0;
 }
 
 .posts .post .post-title {
   font-size:1.5rem;
+}
+
+.by-twitter {
+  text-transform: lowercase;
+  margin-bottom: 3em;
+  font-size: 15px;
+}
+
+.chronological-nav {
+  overflow:auto;
+}
+
+.prev, .next {
+  font-size:13px;
+  border:1px solid #eee;
+  padding:10px 20px;
+  border-radius:10px;
+  color:#777;
+}
+
+.prev:hover, .next:hover {
+  text-decoration: none;
+  color: #268bd2;
+}
+
+.prev {
+  float:left;
+}
+
+.next {
+  float:right;
+}
+
+.footer {
+  margin-bottom:3em;
 }
