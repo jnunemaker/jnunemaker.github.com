@@ -5,7 +5,5 @@ pygments: true
 exclude: ["script", "Gemfile", "Gemfile.lock"]
 permalink: /:title/
 timezone: America/Indiana/Indianapolis
-
 title: John Nunemaker
-tagline: 'addicted to stable'
-description: 'The programmer formerly known as addicted to new.'
+tagline: Addicted to Stable
