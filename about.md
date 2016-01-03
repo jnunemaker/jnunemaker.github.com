@@ -78,7 +78,7 @@ Worked with a small team of developers (2-5) to build a collection, processing a
 
 Haystack is GitHub's internal exception tracker. When bad things happen on GitHub.com, they go to Haystack, which means it is critical during availability events. In June of 2014, Haystack was struggling with spikes of 30-40 exceptions a second. After a few weeks of performance work, Haystack was handling spikes of 400 exceptions per second on the exact same hardware. The tl;dr was dramatically fewer network calls.
 
-### GitHub Notifications Cluster Move
+### GitHub Notifications MySQL Cluster Move
 
 Notifications is one of the most important and highest throughput features on GitHub.com. The feature accounted for half of the storage and over a quarter of the replication load on our primary MySQL cluster (as of June 2014). I worked on application changes that made it super easy to point all notifications queries to a new cluster. Interfaces were created, joins were removed, stats were instrumented, graphs were created and the whole thing went off without a hitch in February 2015. Ruby, Rails, ActiveRecord and SQL. 2014-2015.
 
