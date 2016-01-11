@@ -1,6 +1,7 @@
 ---
 title: Anti-Decay Programming
 layout: post
+tags: recommended
 ---
 
 **de&bull;cay** *noun* - the state or process of **rotting** or decomposition.
