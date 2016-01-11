@@ -18,7 +18,7 @@ title = ask("title # ")
 file_name = title.gsub(/[^\w]/, '-').squeeze('-').downcase
 article = YAML.dump({"title" => title, "layout" => "post"})
 article << "---\n\n"
-path = "_posts/#{Time.now.strftime("%Y-%m-%d")}#{'-' + file_name}.md"
+path = "_drafts/#{file_name}.md"
 unless File.exist?(path)
 	File.open(path, "w") do |file|
 		file.write article
