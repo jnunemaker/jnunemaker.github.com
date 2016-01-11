@@ -3,9 +3,11 @@ title: Anti-Decay Programming
 layout: post
 ---
 
-de&bull;cay *noun* - the state or process of rotting or decomposition.
+**de&bull;cay** *noun* - the state or process of **rotting** or decomposition.
 
-First, lets be honest, all systems decay. That said, in my experience, not all decay is equal with regards to the effect that it has on a system. I am sure others have worked at larger scale than me and know even more timeless anti-decay techniques, but I think the two principles I am going to discuss below will help most people out there fighting the good fight.
+Let us kick off the new year with a lovely post on decay. All systems decay. Even when you continually work on improving the system, it decays. That said, in my experience, not all decay is equal with regards to how it affects the system.
+
+I am sure others have worked at larger scale than me and know even more timeless anti-decay techniques, but I think the two principles I am going to discuss below will help most people out there fighting the good fight.
 
 ## Avoid Network Calls
 
@@ -37,7 +39,7 @@ SpeakerDeck is once again a good example here. We limit uploads per day per user
 
 You can also set different limits based on whether a user is using your web UI or API. API's need higher limits, but there is a real maximum number of actions a real user can perform in a web interface in a given time frame.
 
-**Whenever possible data should have a retention policy**. This is a tough one. As developers, I think we like to keep data around forever, just in case. The truth is though, there is a lot of data that loses value over time to customers, but causes a lot of decay in a system. The decay shows up in the form of slower queries and the need for bigger hard drives. Think about which data is valuable and if there is a point in time at which that data becomes less valuable. Find ways to move less valuable data to places that will be less likely to affect decay (Another less powerful server with big disks? S3?).
+**Whenever possible, data should have a retention policy**. This is a tough one. As developers, I think we like to keep data around forever, just in case. The truth is though, there is a lot of data that loses value over time to customers, but causes a lot of decay in a system. The decay shows up in the form of slower queries and the need for bigger hard drives. Think about which data is valuable and if there is a point in time at which that data becomes less valuable. Find ways to move less valuable data to places that will be less likely to affect decay (Another less powerful server with big disks? S3?).
 
 An example from GitHub would be notifications that have been marked as read. We have a cron in place that uses `pt-archiver` to delete read notifications after a period of time. The value of a read notification decreases with time and dramatically increases the decay in our system, so we purge them.
 
