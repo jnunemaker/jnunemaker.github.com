@@ -1,7 +1,7 @@
 name: John Nunemaker
 author: John Nunemaker
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+highlighter: rouge
 exclude: ["script", "Gemfile", "Gemfile.lock"]
 permalink: /:title/
 timezone: America/Indiana/Indianapolis
