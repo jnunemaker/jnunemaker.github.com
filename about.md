@@ -85,3 +85,7 @@ Notifications is one of the most important and highest throughput features on Gi
 ### GitHub Notifications Resiliency
 
 Moving notifications to a new cluster (see above) created a new way for GitHub.com to fail. I worked with another developer to make GitHub.com gracefully handle issues with the notifications cluster. Method calls were wrapped with response objects, callers were updated to handle failure and circuit breakers were sprinkled in. Ruby, Rails and more. 2015.
+
+### Atom.io Performance
+
+[Atom](https://atom.io) is GitHub's hackable text editor for the 21st century. Atom.io is the backend that powers Atom's built-in package management. An Atom user myself, I noticed some slowness when interacting with the package manager in early April 2016. I poked around a bit and found that Atom.io was indeed in need of a boost. After a few rounds of [fewer and faster]({{site.url}}/fewer-and-faster/) and a little over a week of work, I dropped Atom.io's p99 request time from ~1-2 seconds to ~90ms.
