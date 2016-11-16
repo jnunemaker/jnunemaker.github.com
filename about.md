@@ -6,7 +6,7 @@ title: About
 <img src="/images/me.jpg" alt="John Nunemaker" style="float:right; width:250px; margin-left: 20px;" />
 
 **Home**: Live in Indiana. Married with child.<br/>
-**Work**: Core Application Engineer at <a href="https://github.com/about">GitHub</a>.<br/>
+**Work**: Platform Engineer at <a href="https://github.com/about">GitHub</a>.<br/>
 **Play**: Basketball. Basketball. Basketball.
 
 ## Elsewhere
@@ -18,17 +18,17 @@ title: About
 
 ## Open Source Projects
 
-* <a href="https://github.com/jnunemaker/resilient">Resilient</a>: circuit breaker based on netflix/hystrix, but in ruby.
-* <a href="https://github.com/jnunemaker/nunes">Nunes</a>: The gem that instruments everything for you, like I would if I could.
-* <a href="https://github.com/jnunemaker/flipper">Flipper</a>: Feature flipper for ANYTHING.
 * <a href="https://github.com/jnunemaker/httparty">HTTParty</a>: Makes HTTP fun again!
+* <a href="https://github.com/jnunemaker/flipper">Flipper</a>: Feature flipper for ANYTHING.
+* <a href="https://github.com/jnunemaker/resilient">Resilient</a>: Circuit breaker based on netflix/hystrix, but in ruby.
+* <a href="https://github.com/jnunemaker/nunes">Nunes</a>: The gem that instruments everything for you, like I would if I could.
 
 ## Former Open Source Projects
 
-* <a href="https://github.com/jnunemaker/cassanity">Cassanity</a>: Brings sanity to CQL + Ruby. Not really using cassandra currently, so I am mostly just maintaining this.
-* <a href="https://github.com/jnunemaker/toystore">Toystore</a>: An object mapper for anything.
-* <a href="https://github.com/mongomapper/mongomapper">MongoMapper</a>: A Ruby Object Mapper for Mongo.
 * <a href="https://github.com/sferik/twitter">Twitter</a>: A Ruby interface to the Twitter API.
+* <a href="https://github.com/mongomapper/mongomapper">MongoMapper</a>: A Ruby Object Mapper for Mongo.
+* <a href="https://github.com/jnunemaker/cassanity">Cassanity</a>: Brings sanity to CQL + Ruby.
+* <a href="https://github.com/jnunemaker/toystore">Toystore</a>: An object mapper for anything.
 
 ## If You Read Nothing Else Here, Read These...
 
@@ -60,7 +60,7 @@ Built at Ordered List. Amazingly simple and beautiful content management system.
 
 ### Words With Friends
 
-Consulted for New Toy, Inc. and Zynga, Inc. (after their acquisition of New Toy) on the backend application that powered their popular "with friends" games (chess, words and hanging at the time). Helped scale the application from thousands of requests per minute and one database server to millions of requests per minute and hundreds of database servers, including launching Words with Friends on Facebook. Ruby, Rails, MySQL, (lots of) Memcache and Redis. 2010-2011.
+Consulted for New Toy, Inc. and Zynga, Inc. (after their acquisition of New Toy) on the backend application that powered their popular "with friends" games (chess, words and hanging at the time). Helped scale the application from thousands of requests per minute and one database server to millions of requests per minute and hundreds of database servers, including the launch Words with Friends on Facebook. Ruby, Rails, MySQL, (lots of) Memcache and Redis. 2010-2011.
 
 ### Gauges
 
@@ -68,7 +68,7 @@ Built at Ordered List. A beautiful, intuitive, hosted, real-time web analytics s
 
 ### SpeakerDeck
 
-Built at Ordered List. Share presentations without the mess. Most of my work on this was product, performance and maintenance. I did not do the initial development. Ruby, Rails, Postgres, Redis, ImageMagick and Ghostscript. 2011.
+Built at Ordered List. Share presentations without the mess. Most of my work on this was product, performance and maintenance. Ruby, Rails, MongoDB, Postgres, Redis, ImageMagick, Ghostscript and Heroku. 2011.
 
 ### GitHub Analytics
 
@@ -76,7 +76,7 @@ Worked with a small team of developers (2-5) to build a collection, processing a
 
 ### GitHub Haystack Performance
 
-Haystack is GitHub's internal exception tracker. When bad things happen on GitHub.com, they go to Haystack, which means it is critical during availability events. In June of 2014, Haystack was struggling with spikes of 30-40 exceptions a second. After a few weeks of performance work, Haystack was handling spikes of 400 exceptions per second on the exact same hardware. The tl;dr was dramatically fewer network calls.
+Haystack is GitHub's internal exception tracker. When bad things happen on GitHub.com, they go to Haystack, which means it is critical during availability events. In June of 2014, Haystack was struggling with spikes of 30-40 exceptions a second. After a few weeks of performance work, Haystack was handling spikes of 400 exceptions per second on the exact same hardware. The tl;dr was dramatically fewer network calls (ala [Fewer and Faster](/fewer-and-faster/)).
 
 ### GitHub Notifications MySQL Cluster Move
 
@@ -84,7 +84,7 @@ Notifications is one of the most important and highest throughput features on Gi
 
 ### GitHub Notifications Resiliency
 
-Moving notifications to a new cluster (see above) created a new way for GitHub.com to fail. I worked with another developer to make GitHub.com gracefully handle issues with the notifications cluster. Method calls were wrapped with response objects, callers were updated to handle failure and circuit breakers were sprinkled in. Ruby, Rails and more. 2015.
+Moving notifications to a new cluster (see above) created a new way for GitHub.com to fail. I worked with another developer to make GitHub.com gracefully handle issues with the notifications cluster. Method calls were wrapped with response objects, callers were updated to handle failure and circuit breakers were sprinkled in (see [jnunemaker/resilient](https://github.com/jnunemaker/resilient)). Ruby, Rails and more. 2015.
 
 ### Atom.io Performance
 
