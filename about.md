@@ -33,7 +33,7 @@ title: About
 ## If You Read Nothing Else Here, Read These...
 
 <ul>
-  {% for post in site.tags.recommended: limit: 10 %}
+  {% for post in site.tags.recommended %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
