@@ -13,24 +13,16 @@ title: Home
   {% endfor %}
 </div>
 
-<h1>Recent Random Link Posts</h1>
-<div class="posts">
-  {% for post in site.tags.randoms: limit: 10 %}
-    <div class="post">
-      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-    </div>
-  {% endfor %}
-</div>
+<h1>Chronological Posts</h1>
 
 <div class="posts">
   {% for post in site.posts %}
     {% assign year = post.date | date: "%Y" %}
     {% if last_year != year %}
-      <h1 class="post-year">{{ year }}</h1>
+      <h2 class="post-year">{{ year }}</h2>
     {% endif %}
     <div class="post">
-      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
     </div>
     {% assign last_year = year %}
