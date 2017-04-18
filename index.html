@@ -5,7 +5,7 @@ title: Home
 
 <h1>Recommended Posts</h1>
 <div class="posts">
-  {% for post in site.tags.recommended: limit: 10 %}
+  {% for post in site.tags.recommended %}
     <div class="post">
       <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
