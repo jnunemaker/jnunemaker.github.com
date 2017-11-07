@@ -3,15 +3,15 @@ layout: page
 title: About
 ---
 
-<img src="/images/me.jpg" alt="John Nunemaker" style="float:right; width:250px; margin-left: 20px;" />
+<img src="/images/me.jpg" alt="John Nunemaker" style="float:right; width:220px; margin-left: 20px;" />
 
 **Home**: Live in Indiana. Married with child.<br/>
-**Work**: Platform Engineer at <a href="https://github.com/about">GitHub</a>.<br/>
+**Work**: Programmer at <a href="https://github.com/about">GitHub</a>. Hacking on <a href="https://featureflipper.com">Flipper</a>.<br/>
 **Play**: Basketball. Basketball. Basketball.
 
 ## Elsewhere
 
-* [GitHub](https://github.com/jnunemaker): Open source and more.
+* [GitHub](https://github.com/jnunemaker): Open source.
 * [Twitter](https://twitter.com/jnunemaker): Thoughts and links.
 * [SpeakerDeck](https://speakerdeck.com/jnunemaker): Presentations.
 * [RailsTips](http://railstips.org): Rails specific blogging.
@@ -20,7 +20,7 @@ title: About
 
 * <a href="https://github.com/jnunemaker/httparty">HTTParty</a>: Makes HTTP fun again!
 * <a href="https://github.com/jnunemaker/flipper">Flipper</a>: Feature flipper for ANYTHING.
-* <a href="https://github.com/jnunemaker/resilient">Resilient</a>: Circuit breaker based on netflix/hystrix, but in ruby.
+* <a href="https://github.com/jnunemaker/resilient">Resilient</a>: Circuit breakers so you can fail fast.
 * <a href="https://github.com/jnunemaker/nunes">Nunes</a>: The gem that instruments everything for you, like I would if I could.
 
 ## Former Open Source Projects
