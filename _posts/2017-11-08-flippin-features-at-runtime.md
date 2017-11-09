@@ -3,7 +3,7 @@ title: 'Flippin'' Features at Runtime'
 layout: post
 ---
 
-Since it has been nearly a year since I've [written about Flipper](http://www.railstips.org/blog/archives/2016/12/08/flipper-preloading/), I thought I'd share some of what I (and other contributors) have been up to. From keeping track of a default instance to preloading all your features to the awesome sauce that is [Flipper::Cloud](https://featureflipper.com), a new version ([0.11 changelog](https://github.com/jnunemaker/flipper/blob/ec95d25171e156617da3e0b1afc00946b991e19a/Changelog.md#011)) is hot off the press and ready for use.
+Since it has been nearly a year since I've [written about Flipper](http://www.railstips.org/blog/archives/2016/12/08/flipper-preloading/) (a ruby gem for turning parts of your application on or off at runtime), I thought I'd share some of what I (and other contributors) have been up to. From keeping track of a default instance to preloading all your features to the awesome sauce that is [Flipper::Cloud](https://featureflipper.com), a new version ([0.11 changelog](https://github.com/jnunemaker/flipper/blob/ec95d25171e156617da3e0b1afc00946b991e19a/Changelog.md#011)) is hot off the press and ready for use.
 
 ## Default Instance
 
