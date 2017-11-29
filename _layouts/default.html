@@ -28,6 +28,11 @@
     <div class="wrap">
       <div class="masthead">
         <div class="container">
+          {% unless page.title == "About" %}
+            <a href="/about" class="mugshot">
+              <img src="/images/me.jpg" alt="John Nunemaker" />
+            </a>
+          {% endunless %}
           <h3 class="masthead-title">
             <a href="/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
@@ -50,7 +55,7 @@
         </div>
       </div>
 
-      <div class="container content">
+      <div class="container content clearfix">
         {{ content }}
       </div>
 

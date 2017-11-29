@@ -20,6 +20,16 @@ body {
   color: #6a9fb5;
 }
 
+.mugshot {
+  float:left;
+  margin:0 20px 0 0;
+  width:75px;
+}
+
+.mugshot img {
+  margin:0;
+  padding:0;
+}
 
 .masthead {
   margin-bottom:1em;
@@ -101,4 +111,8 @@ a.prev:hover, a.next:hover {
 .footer {
   margin-bottom:3em;
   text-transform: lowercase;
+}
+
+.clearfix {
+  clear:both;
 }
