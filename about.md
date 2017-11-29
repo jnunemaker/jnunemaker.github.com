@@ -18,8 +18,8 @@ title: About
 
 ## Open Source Projects
 
-* <a href="https://github.com/jnunemaker/httparty">HTTParty</a>: Makes HTTP fun again!
 * <a href="https://github.com/jnunemaker/flipper">Flipper</a>: Feature flipper for ANYTHING.
+* <a href="https://github.com/jnunemaker/httparty">HTTParty</a>: Makes HTTP fun again!
 * <a href="https://github.com/jnunemaker/resilient">Resilient</a>: Circuit breakers so you can fail fast.
 * <a href="https://github.com/jnunemaker/nunes">Nunes</a>: The gem that instruments everything for you, like I would if I could.
 
