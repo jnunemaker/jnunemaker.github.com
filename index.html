@@ -13,7 +13,7 @@ title: Home
 
 <h1>Posts</h1>
 <h2>Recommended</h2>
-<div class="posts">
+<div class="posts clearfix">
   {% for post in site.tags.recommended %}
     <div class="post">
       <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -23,14 +23,10 @@ title: Home
 </div>
 
 <h2>Chronological</h2>
-<div class="posts">
+<div class="posts clearfix">
   {% for post in site.posts %}
-    {% assign year = post.date | date: "%Y" %}
-    {% if last_year != year %}
-      <h3 class="post-year">{{ year }}</h3>
-    {% endif %}
     <div class="post">
-      <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h4 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
     </div>
     {% assign last_year = year %}

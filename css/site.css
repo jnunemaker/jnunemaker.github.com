@@ -69,15 +69,19 @@ body {
   padding-bottom: 1em;
 }
 
-.posts .post-year {
-  margin-bottom:0.2em;
+.posts {
+  margin:0 0 40px;
 }
 
 .posts .post {
   margin-bottom:0;
-  padding:1em 0;
+  padding:0.8em 0;
   border-top: 1px solid #eee;
   border-bottom: none;
+  float:left;
+  display: block;
+  clear: both;
+  width:100%;
 }
 
 .posts .post .post-title {
@@ -85,11 +89,15 @@ body {
   font-weight: 700;
   margin:0;
   padding:0;
+  float:left;
+  display: block;
 }
 
 .posts .post .post-date {
   margin:0;
   padding:0;
+  float:right;
+  display: block;
 }
 
 .by-twitter {
@@ -128,6 +136,10 @@ a.prev:hover, a.next:hover {
   text-transform: lowercase;
 }
 
-.clearfix {
-  clear:both;
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
