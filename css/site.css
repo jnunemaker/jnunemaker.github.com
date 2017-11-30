@@ -71,6 +71,7 @@ body {
 
 .posts {
   margin:0 0 40px;
+  line-height: 1;
 }
 
 .posts .post {
