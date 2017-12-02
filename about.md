@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="/images/me.jpg" alt="John Nunemaker" style="float:right; width:220px; margin-left: 20px;" />
+<div class="about-mugshot">{% avatar jnunemaker size=440 %}</div>
 
 **Home**: Live in Indiana. Married with child.<br/>
 **Work**: Programmer at <a href="https://github.com/about">GitHub</a>. Hacking on <a href="https://featureflipper.com">Flipper</a>.<br/>

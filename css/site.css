@@ -22,11 +22,14 @@ body {
 
 .mugshot {
   float:left;
-  margin:0 20px 0 0;
   width:75px;
+  height:75px;
+  margin:0 20px 0 0;
 }
 
 .mugshot img {
+  width:75px;
+  height:75px;
   margin:0;
   padding:0;
 }
@@ -152,4 +155,18 @@ a.prev:hover, a.next:hover {
   line-height: 1;
   width: 18px;
   height: 18px;
+}
+
+.about-mugshot {
+  float:right;
+  width:220px;
+  height:220px;
+  margin:0 0 0 20px;
+}
+
+.about-mugshot img {
+  width:220px;
+  height:220px;
+  margin:0;
+  padding:0;
 }

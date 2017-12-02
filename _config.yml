@@ -12,3 +12,4 @@ plugins:
   - jekyll-mentions
   - jemoji
   - jekyll-sitemap
+  - jekyll-avatar
