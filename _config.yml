@@ -11,3 +11,4 @@ feed_url: http://feeds.feedburner.com/johnnunemakercom
 plugins:
   - jekyll-mentions
   - jemoji
+  - jekyll-sitemap
