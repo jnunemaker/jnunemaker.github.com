@@ -144,3 +144,12 @@ a.prev:hover, a.next:hover {
    height: 0;
    clear: both;
 }
+
+.emoji {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  width: 18px;
+  height: 18px;
+}

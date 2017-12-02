@@ -8,3 +8,6 @@ timezone: America/Indiana/Indianapolis
 title: John Nunemaker
 tagline: Addicted to Stable
 feed_url: http://feeds.feedburner.com/johnnunemakercom
+plugins:
+  - jekyll-mentions
+  - jemoji
