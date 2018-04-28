@@ -6,7 +6,7 @@ title: About
 <div class="about-mugshot">{% avatar jnunemaker size=440 %}</div>
 
 **Home**: Live in Indiana. Married with child.<br/>
-**Work**: Programmer at <a href="https://github.com/about">GitHub</a>. Hacking on <a href="https://featureflipper.com">Flipper</a>.<br/>
+**Work**: Programmer at <a href="https://github.com/about">GitHub</a>. Hacking on <a href="https://www.flippercloud.io">Flipper</a>.<br/>
 **Play**: Basketball. Basketball. Basketball.
 
 ## Elsewhere

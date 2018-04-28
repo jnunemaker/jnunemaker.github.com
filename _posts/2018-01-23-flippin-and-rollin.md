@@ -81,7 +81,7 @@ Note: This only works if you are using the default Flipper instance configuratio
 
 ## Next Up
 
-Most of my current work has been spent on [Flipper Cloud](https://featureflipper.com). Over the holidays I started on client side instrumentation for tracking `Feature#enabled?` events and sending them to Flipper Cloud for processing. This will enable (haha, see what I did there) us to provide you with dope analytics (and beautiful graphs of course) on what your users are doing, simply as a side effect of feature flags.
+Most of my current work has been spent on [Flipper Cloud](https://www.flippercloud.io). Over the holidays I started on client side instrumentation for tracking `Feature#enabled?` events and sending them to Flipper Cloud for processing. This will enable (haha, see what I did there) us to provide you with dope analytics (and beautiful graphs of course) on what your users are doing, simply as a side effect of feature flags.
 
 Imagine a world where you front each feature in your application with a Flipper feature and receive an abundant amount of insight as to which features your users are using and if they are succeeding or not. Sounds pretty great right? I know I am stoked.
 

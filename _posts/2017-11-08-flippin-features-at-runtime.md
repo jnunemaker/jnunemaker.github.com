@@ -3,7 +3,7 @@ title: 'Flippin'' Features at Runtime'
 layout: post
 ---
 
-Since it has been nearly a year since I've [written about Flipper](http://www.railstips.org/blog/archives/2016/12/08/flipper-preloading/) (a ruby gem for turning parts of your application on or off at runtime), I thought I'd share some of what I (and other contributors) have been up to. From keeping track of a default instance to preloading all your features to the awesome sauce that is [Flipper::Cloud](https://featureflipper.com), a new version ([0.11 changelog](https://github.com/jnunemaker/flipper/blob/ec95d25171e156617da3e0b1afc00946b991e19a/Changelog.md#011)) is hot off the press and ready for use.
+Since it has been nearly a year since I've [written about Flipper](http://www.railstips.org/blog/archives/2016/12/08/flipper-preloading/) (a ruby gem for turning parts of your application on or off at runtime), I thought I'd share some of what I (and other contributors) have been up to. From keeping track of a default instance to preloading all your features to the awesome sauce that is [Flipper::Cloud](https://www.flippercloud.io), a new version ([0.11 changelog](https://github.com/jnunemaker/flipper/blob/ec95d25171e156617da3e0b1afc00946b991e19a/Changelog.md#011)) is hot off the press and ready for use.
 
 ## Default Instance
 
@@ -73,7 +73,7 @@ In [my last post](http://www.railstips.org/blog/archives/2016/12/08/flipper-prel
 
 There are certain cases where it makes sense to preload all the features. This was possible by passing the set of known features to preload, but doing so required two network calls (at a minimum) -- one to get the set of known features and one or more to preload those features.
 
-To make it possible to do this in one network call, I added another adapter method named `get_all` and an accompanying `preload_all` option for the memoizer middleware. I [love limits](/anti-decay-programming/), so I died a bit on the inside, but this is useful, say when your flipper adapter is communicating over HTTP (e.g. [Flipper::Cloud](https://featureflipper.com)).
+To make it possible to do this in one network call, I added another adapter method named `get_all` and an accompanying `preload_all` option for the memoizer middleware. I [love limits](/anti-decay-programming/), so I died a bit on the inside, but this is useful, say when your flipper adapter is communicating over HTTP (e.g. [Flipper::Cloud](https://www.flippercloud.io)).
 
 I also went through the pain of [adding `get_all`](https://github.com/jnunemaker/flipper/pull/298) to every supported adapter, so if you are using any of the officially supported adapters, upon upgrade your app should be relatively efficient with network calls.
 
@@ -196,7 +196,7 @@ You can see the [full docs](https://github.com/jnunemaker/flipper/blob/a4a87e957
 
 <image src="{{ site.url }}/images/posts/flipper-0-11/mark.png" alt="Flipper Mark" style="float:right; width:120px; margin-left: 30px;"/>
 
-I would be remiss to talk about all the awesome in 0.11 and leave out `Flipper::Cloud`. Myself and a few friends have been working (on the side for nearly a year) on a [beautiful web UI for flipping features](https://featureflipper.com) across all your projects and environments with permissions, analytics and audit logging included.
+I would be remiss to talk about all the awesome in 0.11 and leave out `Flipper::Cloud`. Myself and a few friends have been working (on the side for nearly a year) on a [beautiful web UI for flipping features](https://www.flippercloud.io) across all your projects and environments with permissions, analytics and audit logging included.
 
 ### Teaser
 

@@ -1,6 +1,7 @@
 ---
-title: 'FeatureFlipper.com: Why?'
+title: 'FlipperCloud.io: Why?'
 layout: post
+permalink: featureflipper-com-why
 ---
 
 I have moleskines full of ideas. When I worked at [Notre Dame](https://www.nd.edu) (circa 2006), making products was all the rage. I spent all my free time thinking up and working on new apps. They never went anywhere, but were great fun and, more importantly, great practice.
@@ -65,7 +66,7 @@ I started jotting some notes on functionality and implementation, but mostly for
 
 The :cherries: on top was the end of December (2016) when Launch Darkly [announced](https://techcrunch.com/2016/12/20/launchdarkly-gets-8-7m-to-get-access-to-the-right-features-in-front-of-right-users/) another round of funding (~ $9M :moneybag:). A second round of funding leads me to believe that they proved the concept and needed fuel. If that were not enough, Split [announced](https://www.split.io/blog/founding-moments-split-raises-8-million-series/) a second round of funding (~$8M  :moneybag:) less than a month later.
 
-The fact that other companies were doing hosted feature flipping and had customers plus my experience making services highly available, performant and resilient left me feeling that [Feature Flipper](https://featureflipper.com) would be worth a shot.
+The fact that other companies were doing hosted feature flipping and had customers plus my experience making services highly available, performant and resilient left me feeling that [Flipper Cloud](https://www.flippercloud.io) would be worth a shot.
 
 I have seen the difference feature flipping can make for an organization and their ability to release software quickly and safely. I believe every application benefits from this functionality and want to take away any excuses I can as to why not to do it.
 
