@@ -3,11 +3,13 @@ layout: page
 title: About
 ---
 
-<div class="about-mugshot">{% avatar jnunemaker size=440 %}</div>
+<div class="about-mugshot">{% avatar jnunemaker size=400 %}</div>
 
-**Home**: Live in Indiana. Married with children.<br/>
-**Work**: Co-founder at <a href="https://fewerandfaster.com">Fewer & Faster</a>.<br/>
-**Play**: Basketball. Basketball. Basketball.
+When not playing basketball, I am a programmer/owner at <a href="https://boxoutsports.com">Box Out Sports</a> and <a href="https://fewerandfaster.com">Fewer & Faster</a>.
+
+I worked at <a href="https://github.com">GitHub</a> for seven years in the darkest corners of their code measuring things and <a href="https://fewerandfaster.com/ethos/">making them go fast</a>.
+
+I ended up at GitHub because I helped <a href="https://harmonyapp.com">build</a> <a href="https://gaug.es">pretty</a> <a href="https://speakerdeck.com">things</a> at Ordered List, <a href="https://web.archive.org/web/20180604095616/https://blog.github.com/2011-12-05-ordered-list-is-a-githubber/">GitHub's first acquisition</a>, and wrote my heart out at <a href="http://www.railstips.org">RailsTips</a>.
 
 ## Elsewhere
 
@@ -89,3 +91,11 @@ Moving notifications to a new cluster (see above) created a new way for GitHub.c
 ### Atom.io Performance
 
 [Atom](https://atom.io) is GitHub's hackable text editor for the 21st century. Atom.io is the backend that powers Atom's built-in package management. An Atom user myself, I noticed some slowness when interacting with the package manager in early April 2016. I poked around a bit and found that Atom.io was indeed in need of a boost. After a few rounds of [fewer and faster]({{site.url}}/fewer-and-faster/) and a little over a week of work, I dropped Atom.io's p99 request time from ~1-2 seconds to ~90ms.
+
+### GitHub Feature Flipping (aka Software Release)
+
+I wrote and maintained the software that changed the way GitHub released features/code to users. [Flipper](https://github.com/jnunemaker/flipper) enabled the developers working on GitHub.com to rapidly and safely get their code into production, reducing wait times to deploy the application, improving the experience of sharing work with team members in a real application environment and enabling timed releases of many features at once for events like [Universe](https://githubuniverse.com) and [Satellite](https://githubsatellite.com).
+
+### GitHub Multi Datacenter
+
+A huge undertaking involving many cross-functional teams that resulted in a much faster GitHub.com for the United States west coast and Asia. I led the application team responsible for auditing and reducing cross-continent data access.
