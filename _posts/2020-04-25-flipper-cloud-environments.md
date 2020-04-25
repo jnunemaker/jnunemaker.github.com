@@ -64,3 +64,18 @@ Here is pretty picture of my personal environment for [Speaker Deck](https://spe
 I can do whatever I want with that feature and everyone else working on the project, even the same feature, is fine. It's fine. Everything is fine.
 
 That is all for now, but I really hope it will not be another two years until we meet again. Maybe I can show some of the code I wrote to do the above. Who knows. For now, fairwell dear reader.
+
+Oh, still here? In the mean time, if you want to know more about [Flipper Cloud](https://flippercloud.io), like when we open the gates, you can drop your email in the form below. Thanks!
+
+<div class="flipper-form">
+  <form action="//fewerandfaster.us15.list-manage.com/subscribe/post?u=521b5ebd470034daa45924270&amp;id=db45cffeb7" method="post">
+    <input name="EMAIL" type="email" placeholder="Email address" style="font-size:15px;" />
+
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_521b5ebd470034daa45924270_db45cffeb7" tabindex="-1" value=""></div>
+
+    <button style="font-size:15px;">I Yearn to Flip</button>
+  </form>
+</div>
+
+<small>I promise to treat your email address with respect.</small>
