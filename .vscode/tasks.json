@@ -61,6 +61,17 @@
         "panel": "dedicated"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "New",
+      "type": "shell",
+      "command": "${workspaceFolder}/script/new",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": true,
+      },
+      "problemMatcher": []
     }
   ]
 }
