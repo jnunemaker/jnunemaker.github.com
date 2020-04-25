@@ -1,0 +1,66 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "name",
+      "type": "promptString",
+      "description": "The name of the gem",
+      "default": "rails",
+    },
+  ],
+  "tasks": [
+    {
+      "label": "Bundle",
+      "type": "shell",
+      "command": "${workspaceFolder}/bin/bundle",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true,
+        "focus": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Bundle Install",
+      "type": "shell",
+      "command": "${workspaceFolder}/bin/bundle install",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true,
+        "focus": true
+      }
+    },
+    {
+      "label": "Bundle Open",
+      "type": "shell",
+      "command": "${workspaceFolder}/bin/bundle",
+      "args": [
+        "open",
+        "${input:name}"
+      ],
+      "presentation": {
+        "reveal": "never",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start",
+      "type": "shell",
+      "command": "${workspaceFolder}/script/server",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

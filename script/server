@@ -8,6 +8,6 @@
 set -e
 cd $(dirname "$0")/..
 
-script/bootstrap && bundle exec jekyll serve --watch --drafts
+script/bootstrap && bin/jekyll serve --watch --drafts --incremental
 exit=$?
 exit $exit
