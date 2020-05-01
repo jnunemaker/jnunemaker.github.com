@@ -8,6 +8,6 @@
 set -e
 cd $(dirname "$0")/..
 
-script/bootstrap && bin/jekyll serve --watch --drafts --incremental --port 5000
+script/bootstrap && bin/jekyll serve --watch --drafts --port 5000
 exit=$?
 exit $exit
