@@ -28,26 +28,31 @@
     <div class="wrap">
       <div class="masthead">
         <div class="container">
-          {% unless page.title == "About" %}
-            <a href="/about" class="mugshot">{% avatar jnunemaker size=300 %}</a>
-          {% endunless %}
+          <a href="{{ site.url }}" class="mugshot">{% avatar jnunemaker size=300 %}</a>
           <h3 class="masthead-title">
             <a href="/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
           <nav class="nav">
-            <a class="nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
-
-            {% assign pages_list = site.pages %}
-            {% for node in pages_list %}
-              {% if node.title != null %}
-                {% if node.layout == "page" %}
-                  <a class="nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <ul>
+              <li>
+                <a class="nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a> &bull;
+              </li>
+              {% assign pages_list = site.pages %}
+              {% for node in pages_list %}
+                {% if node.title != null %}
+                  {% if node.layout == "page" %}
+                    <li>
+                      <a class="nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a> &bull;
+                    </li>
+                  {% endif %}
                 {% endif %}
-              {% endif %}
-            {% endfor %}
-
-            <a class="nav-item" href="{{ site.feed_url }}">Feed</a>
+              {% endfor %}
+              <li>
+                Subscribe via <a class="nav-item" href="{{ site.feed_url }}">Feed</a> or
+                <a class="nav-item" href="https://feedburner.google.com/fb/a/mailverify?uri=johnnunemakercom&amp;loc=en_US">Email</a>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>

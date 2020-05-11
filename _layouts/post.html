@@ -9,16 +9,18 @@ layout: default
 </div>
 
 <p class="by-twitter">
-  calmly typed on a keyboard by <a href="https://twitter.com/jnunemaker">@jnunemaker</a>
+  Calmly typed on a keyboard by <a href="https://twitter.com/jnunemaker">@jnunemaker</a>.<br>
+  If you made it this far, you should definitely subscribe via <a class="nav-item" href="{{ site.feed_url }}">feed</a> or
+  <a class="nav-item" href="https://feedburner.google.com/fb/a/mailverify?uri=johnnunemakercom&amp;loc=en_US">email</a>.
 </p>
 
-<p class="chronological-nav">
-  {% if page.previous and page.next %}
-    <a rel="prev" href="{{ page.previous.url }}" class="prev">&larr; {{ page.previous.title }}</a>
-    <a rel="next" href="{{ page.next.url }}" class="next">{{ page.next.title }} &rarr;</a>
-  {% elsif page.previous %}
-    <a rel="prev" href="{{ page.previous.url }}" class="prev">&larr; {{ page.previous.title }}</a>
-  {% elsif page.next %}
-    <a rel="next" href="{{ page.next.url }}" class="next">{{ page.next.title }} &rarr;</a>
-  {% endif %}
-</p>
+<h2>Do Not Read These Other Fantastic Posts</h2>
+
+<div class="posts clearfix">
+  {% for post in site.tags.recommended %}
+    <div class="post">
+      <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <span class="post-date">★★★★★</span>
+    </div>
+  {% endfor %}
+</div>
