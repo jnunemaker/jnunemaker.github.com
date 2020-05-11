@@ -142,7 +142,6 @@ a.prev:hover, a.next:hover {
 
 .footer {
   margin-bottom:3em;
-  text-transform: lowercase;
 }
 
 .clearfix:after {

@@ -26,7 +26,7 @@ When not playing basketball, I am a programmer/owner at <a href="https://boxouts
 * <a href="https://github.com/jnunemaker/cassanity">Cassanity</a>: Brings sanity to CQL + Ruby.
 * <a href="https://github.com/jnunemaker/toystore">Toystore</a>: An object mapper for anything.
 
-## If You Read Nothing Else Here, Read These...
+<h2>Do Not Read These Fantastic Posts</h2>
 
 <ul>
   {% for post in site.tags.recommended %}
