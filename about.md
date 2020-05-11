@@ -3,16 +3,14 @@ layout: page
 title: About
 ---
 
-<div class="about-mugshot">{% avatar jnunemaker size=400 %}</div>
-
-When not playing basketball, I am a programmer/owner at <a href="https://boxoutsports.com">Box Out Sports</a> and <a href="https://fewerandfaster.com">Fewer & Faster</a>. I worked at <a href="https://github.com">GitHub</a> for seven years in the darkest corners of their code measuring things and <a href="https://fewerandfaster.com/ethos/">making them go fast</a>. I ended up at GitHub because I helped <a href="https://harmonyapp.com">build</a> <a href="https://gaug.es">pretty</a> <a href="https://speakerdeck.com">things</a> at Ordered List, <a href="https://web.archive.org/web/20180604095616/https://blog.github.com/2011-12-05-ordered-list-is-a-githubber/">GitHub's first acquisition</a>, and wrote my heart out at <a href="http://www.railstips.org">RailsTips</a>.
+When not playing basketball, I am a programmer/owner at <a href="https://boxoutsports.com">Box Out Sports</a> and <a href="https://fewerandfaster.com">Fewer & Faster</a>. Previously, I worked at <a href="https://github.com">GitHub</a> for seven years in the darkest corners of their code measuring things and <a href="https://fewerandfaster.com/ethos/">making them go fast</a>. I ended up at GitHub because I helped <a href="https://harmonyapp.com">build</a> <a href="https://gaug.es">pretty</a> <a href="https://speakerdeck.com">things</a> at Ordered List, <a href="https://web.archive.org/web/20180604095616/https://blog.github.com/2011-12-05-ordered-list-is-a-githubber/">GitHub's first acquisition</a>, and wrote my heart out at <a href="http://www.railstips.org">RailsTips</a>.
 
 ## Elsewhere
 
 * [GitHub](https://github.com/jnunemaker): Open source.
 * [Twitter](https://twitter.com/jnunemaker): Thoughts and links.
 * [SpeakerDeck](https://speakerdeck.com/jnunemaker): Presentations.
-* [RailsTips](http://railstips.org): Rails specific blogging.
+* [RailsTips](http://railstips.org): Classic blog from long ago.
 
 ## Open Source Projects
 
