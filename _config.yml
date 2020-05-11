@@ -6,7 +6,7 @@ exclude: ["script", "Gemfile", "Gemfile.lock"]
 permalink: /:title/
 timezone: America/Indiana/Indianapolis
 title: John Nunemaker
-tagline: Addicted to Stable
+tagline: The writer formerly addicted to new, but now addicted to stable.
 feed_url: http://feeds.feedburner.com/johnnunemakercom
 plugins:
   - jekyll-mentions
