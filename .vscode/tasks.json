@@ -49,7 +49,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Start",
+      "label": "Server",
       "type": "shell",
       "command": "${workspaceFolder}/script/server",
       "group": {
