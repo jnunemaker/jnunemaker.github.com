@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/jnunemaker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://johnnunemaker.com
+  * I am jnunemaker (https://keybase.io/jnunemaker) on keybase.
+  * I have a public key with fingerprint 2F06 D8EA 2B19 8EAB 40C2  7379 7BF1 39D1 EC76 CA82
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f0f9150cbc520663310b285da029cdc0b93bbb6370243460b8d3fe1fdab3d85e0a",
+      "fingerprint": "2f06d8ea2b198eab40c273797bf139d1ec76ca82",
+      "host": "keybase.io",
+      "key_id": "7bf139d1ec76ca82",
+      "kid": "0101fd38cb18f8c1bd150b2a8f8eba4ab6556923ba9e6bfdd0b3d5cb9623ec2aec500a",
+      "uid": "f406f7419dca149a2d9e5d1298822619",
+      "username": "jnunemaker"
+    },
+    "service": {
+      "hostname": "johnnunemaker.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1597156239,
+  "expire_in": 157680000,
+  "prev": "2bc9a776bf6a5d41b6f89f0532f6ac1a76ef408c17700e72c3ca8dd2c456e741",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNwAnicbVJtUFRVGN41cHKBUIPEkKBLKE3E3Hvu3i+a0QjBwTHNqQyHYOeee89l
+Lx93l/0AkcgBmQINlcaPcYBWx7GJL7VoMgoNA5dckAElwFwNDW1HZUYaK4nROpeJ
+fnX+vHPe87zPeZ7nnN6wJwwmY/m0MHyvxFdl7D/ncRssoHVvOQFtchmRUk4UoLmC
+CmXkdFkKVJlIIUgKkAqpCBRDSlBiAMmyNE2REPCMLJJAkGSJhAINIWRpjgRm2syS
+kJdpBVGKLEJa5hlEikQSoahaHnLYHarmwrRAIVmZRyKAlIALNJMS4GhO4KBC0YJM
+IYljJZEHeNBqc+oTWBwUnShZteEe3ljm5P0Pfl43iQXQvAQpXuElCsrYAQQi3iAo
+mkXIMgwrABqKAmKhIssk1spIUGABjSQgIokh53S75+gUM8kqnJkSZEmkzIIIZAEx
+MgUEngeApQQd6EQOTSxCGJ2vuTVUJBYgB1GRROB+iSohPVrdyzzGZtX+gyVLtiJM
+YXfYXDbJVoiPrS6X3Zmij7vK7Dq+FEHLv0wWqGoyjhNPlCCHU7VpRAqFkZJL1akp
+RuAoBvsQkgi0za46kEXVEQzH8iRe+j2oRH8EKAkix2H7rMjIZgqyCi8oJEMD3JAo
+kWMR9o3D4ziSRByQaByxLAPJzLAIh0Ho3oo1m86NdYp5mNOp5mmiy+1ARMX3594N
+MhhNhoXBC/R/ZjAtWjz/+3oehT9ObLvS9v5Xvq0t/olqu7f8YpSZD97UMRFxkIip
+9d7KuVW6Y7En8KgOLpqN76qaXLIl1fVxx64H+wazGweP5PYOj2WpSyLPrkrd5bsS
+V91y5uzodt8NT1/szfSO0JBlD36qnHEuZXtuOoZXgi13rsKoY4XHXq/w5y+HXGhF
+MbPd/bQlISxkZLZ1t/qee0/j5QM9SXVZA+B2YDrxJLj2uGB448Ce5t+H2yLSN34b
+Z/rOtG6m8uXmuLuet3NyuvsHLlzz5PkbzN2J9o8uvfDm3vDIX6vbx9s3RzWtGArE
+hHh93Ts9QTnC6vNxjX1FrwUJobTli/iVU4kBf+ZL1t1vON0B+nS2yVNTfagrqGpV
+w/rLRSfWXuqdiExb0TFpfDVmk29/Ixk+cvz+J0ZrzR9Tddnt4jP1ftPs0bWRDzeX
+jf65LHyDKeJra2DNDw0dCbE1jYfHtKf6rwO3fWYy9Iij/sWlmc8l2Y9eMPCf7ptN
+m3F8yIZEt45KW+vNO8TKqdzp5+/Hyp2Zp/zPDmR4P6u9UWjM2Hn46sPCX9KHGr3k
+7bC0bf47EZXHg8+r3dG3O08PHhrRlM+L0wy5Q+IGej/R4c168u/1p5aneivXUV2/
+aQsXdB6oXXMy2OfPz1/tbAhtfmt8/HoCY/mg6d4r0aa/+r55Jzsi/ozwY6nW0pTs
+uXtxsv/Ez2MZB2OtX/4DZc/K4g==
+=0Y/f
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jnunemaker
+
+==================================================================
